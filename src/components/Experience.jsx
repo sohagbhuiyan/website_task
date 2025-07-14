@@ -1,13 +1,14 @@
 import React from "react";
-import keyboardBg from "../assets/keyboard-bg.jpg"; // Replace with your image path
+import { kyb2 } from "../Utils/images";
+
 
 const Experience = () => {
   return (
     <div
-      className="bg-cover bg-center min-h-screen flex items-center justify-start p-4"
-      style={{ backgroundImage: `url(${keyboardBg})` }}
+      className="bg-yellow-400 bg-cover bg-center min-h-screen flex items-center justify-start p-4"
+      style={{ backgroundImage: `url(${kyb2})` }}
     >
-      <div className="bg-white bg-opacity-95 max-w-lg p-6 rounded shadow-md ml-4 md:ml-20">
+      <div className="bg-white bg-opacity-95 max-w-60 md:max-w-lg p-6 shadow-md ml-4 md:ml-20">
         <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
           Crafting digital <br /> experiences
         </h1>
@@ -20,7 +21,7 @@ const Experience = () => {
             Freepik
           </a>
         </p>
-        <button className="bg-black text-white px-5 py-2 rounded hover:bg-gray-800 transition">
+        <button className="bg-black text-xs text-gray-400 px-5 py-2 rounded-lg hover:bg-gray-800 transition">
           CONTACT US
         </button>
       </div>

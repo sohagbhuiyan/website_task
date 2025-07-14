@@ -1,8 +1,10 @@
 
 import './App.css'
 import BrandValues from './components/BrandValues'
+import ContactUs from './components/ContactUs'
 import Experience from './components/Experience'
 import FeatureSection from './components/FeatureSection'
+import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import MockUpSection from './components/MockUpSection'
 import Navbar from './components/Navbar'
@@ -23,6 +25,8 @@ function App() {
     <WhatWeDo/>
     <MockUpSection/>
     <Experience/>
+    <ContactUs/>
+    <Footer/>
     </>
   )
 }
