@@ -14,7 +14,7 @@ const MockUpSection = () => {
             className="w-48 sm:w-60 md:w-72 shadow-lg "
         />
 
-        <div className="bg-white bg-opacity-90 w-48 sm:w-60 md:w-72 items-center text-center -ml-4 md:-ml-28 p-10 shadow-md ">
+        <div className="bg-white bg-opacity-90 w-48 sm:w-60 md:w-72 items-center text-center -ml-4 md:-ml-10 p-10 shadow-md ">
             <h1 className="text-lg sm:text-xl font-semibold">MOCKUP</h1>
             <p className="text-sm sm:text-base mt-1">READY TO USE</p>
         </div>

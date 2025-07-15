@@ -3,7 +3,7 @@ import { cont } from "../Utils/images";
 
 const ContactUs = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen py-12 bg-[#f5ded0] px-4 lg:px-16">
+    <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen bg-[#f5ded0] ">
       
       <div className="flex flex-col lg:flex-row w-full max-w-6xl shadow-lg bg-white  overflow-hidden">
 
